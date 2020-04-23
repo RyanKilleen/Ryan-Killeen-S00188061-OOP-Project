@@ -1,0 +1,20 @@
+﻿<Window x:Class="Ryan_Killeen_S00188061_OOP_Project.Track"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ryan_Killeen_S00188061_OOP_Project"
+        mc:Ignorable="d"
+        Title="Track" Height="450" Width="800">
+
+
+    <Grid>
+        <Button x:Name="btnRandomTrack" Content="Random Track" HorizontalAlignment="Left" Margin="109,173,0,0" VerticalAlignment="Top" Width="140" Height="101" Click="BtnRandomTrack_Click"/>
+
+        <TextBlock x:Name="tblkTrackName" HorizontalAlignment="Left" Margin="318,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="101" Width="120"/>
+        <TextBlock x:Name="tblkWinnersName" HorizontalAlignment="Left" Margin="482,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="101" Width="113"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="56,28,0,0" VerticalAlignment="Top" Width="249" Source="DriverImages/Logo.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="338,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="331"><Run Text="Here On this Part of the app you can use the random"/><Run Text=" Button To pull up one of the Race results form last season and it will display the Top Three Finishers of the Race."/></TextBlock>
+
+    </Grid>
+</Window>

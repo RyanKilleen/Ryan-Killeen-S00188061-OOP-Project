@@ -14,13 +14,13 @@
                 <Style>
                     <Setter Property="TextBlock.FontSize" Value="18"/>
                 </Style>
-            </TextBlock.Style><Run Text="Welcome To My Guide to F1"/><Run Text=" Here on this is app you"/><Run Text=" can view the Drivers and teams"/><Run Text=". The track guide will show you last years"/><LineBreak/><Run Text="winners and the standings will show you the last three years standings and last years top five."/><Run Text=" "/><LineBreak/><Run/><LineBreak/><Run Text=""/><LineBreak/><Run/></TextBlock>
+            </TextBlock.Style><Run Text="Welcome To My Guide to F1"/><Run Text=" "/><Run Text="Here On This App You Can View"/><LineBreak/><Run Text="Teams And Drivers, Standings, Track Guide and a DataBase"/><LineBreak/><Run Text="of Forumla Drivers And Teams."/><LineBreak/><Run/><LineBreak/><Run Text=""/><LineBreak/><Run/></TextBlock>
 
         <Button x:Name="btnDriversAndTeam" Content="Drivers And Teams" HorizontalAlignment="Left" Margin="45,195,0,0" VerticalAlignment="Top" Width="105" Height="100" Click="BtnDriversAndTeam_Click"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="27,26,0,0" VerticalAlignment="Top" Width="212" Source="DriverImages/Logo.png"/>
-        <Button x:Name="btnTrackGuide" Content="Track Guide" HorizontalAlignment="Left" Margin="238,195,0,0" VerticalAlignment="Top" Width="98" Height="100" Click="BtnTrackGuide_Click"/>
-        <Button x:Name="btnStandings" Content="Standings" HorizontalAlignment="Left" Margin="432,195,0,0" VerticalAlignment="Top" Width="98" Height="100" Click="BtnStandings_Click"/>
-        <Button Content="DataBase" HorizontalAlignment="Left" Margin="607,195,0,0" VerticalAlignment="Top" Width="116" Height="100" Click="Button_Click"/>
+        <Button x:Name="btnTrackGuide" Content="Track Guide" HorizontalAlignment="Left" Margin="226,195,0,0" VerticalAlignment="Top" Width="118" Height="100" Click="BtnTrackGuide_Click"/>
+        <Button x:Name="btnStandings" Content="Standings" HorizontalAlignment="Left" Margin="413,195,0,0" VerticalAlignment="Top" Width="117" Height="100" Click="BtnStandings_Click"/>
+        <Button Content="DataBase" HorizontalAlignment="Left" Margin="600,195,0,0" VerticalAlignment="Top" Width="123" Height="100" Click="Button_Click"/>
 
     </Grid>
 </Window>

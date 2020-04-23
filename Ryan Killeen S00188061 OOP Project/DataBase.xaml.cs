@@ -14,16 +14,14 @@ using System.Windows.Shapes;
 
 namespace Ryan_Killeen_S00188061_OOP_Project
 {
-    /// <summary>
-    /// Interaction logic for DataBase.xaml
-    /// </summary>
+    //Start Of Class
     public partial class DriverListSorting : Window
     {
         public DriverListSorting()
         {
             InitializeComponent();
         }
-
+        //Declaring the button to click to pull form the Drivers Database
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             FomulaOneDataBaseEntities db = new FomulaOneDataBaseEntities();
@@ -34,6 +32,7 @@ namespace Ryan_Killeen_S00188061_OOP_Project
             lbxDrivers.ItemsSource = query.ToList();
         }
 
+        //Declaring the button to click to pull form the Teams Database
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             FomulaOneDataBaseEntities db = new FomulaOneDataBaseEntities();
@@ -44,4 +43,4 @@ namespace Ryan_Killeen_S00188061_OOP_Project
             lbxTeams.ItemsSource = query.ToList();
         }
     }
-}
+}//End of Class

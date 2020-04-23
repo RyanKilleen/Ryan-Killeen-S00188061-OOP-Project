@@ -11,6 +11,8 @@
         <Button Content="Driver DataBase" HorizontalAlignment="Left" Margin="25,129,0,0" VerticalAlignment="Top" Width="146" Click="Button_Click"/>
         <ListBox x:Name="lbxTeams" HorizontalAlignment="Left" Height="213" Margin="253,166,0,0" VerticalAlignment="Top" Width="182"/>
         <Button Content="Teams DataBase" HorizontalAlignment="Left" Margin="253,129,0,0" VerticalAlignment="Top" Width="140" Click="Button_Click_1"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="25,10,0,0" VerticalAlignment="Top" Width="242"  Source="DriverImages/Logo.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="479,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" Height="203"><Run Text="Here On this part of the app you can access a database of the drivers and teams at the Moment "/><LineBreak/><Run Text="there is only a limited Selection of entries but "/><LineBreak/><Run Text="in future it will be updated so you can search for "/><LineBreak/><Run Text="Specific drivers and teams form past years. "/></TextBlock>
 
     </Grid>
 </Window>

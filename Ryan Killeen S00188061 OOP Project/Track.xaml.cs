@@ -16,9 +16,6 @@ using System.Windows.Shapes;
 
 namespace Ryan_Killeen_S00188061_OOP_Project
 {
-    /// <summary>
-    /// Interaction logic for Track.xaml
-    /// </summary>
     public partial class Track : Window
     {
         //Start Of Class
@@ -76,6 +73,7 @@ namespace Ryan_Killeen_S00188061_OOP_Project
 
             //Declaring the List For the Tracks
             List<TrackName> alltracks = new List<TrackName>();
+
             //Here I am Adding the the tracks to the list 
             alltracks.Add(t1);
             alltracks.Add(t2);
@@ -98,6 +96,7 @@ namespace Ryan_Killeen_S00188061_OOP_Project
             alltracks.Add(t19);
             alltracks.Add(t20);
             alltracks.Add(t21);
+
             //This is the method to make the tracks random
             Random r = new Random();
             int tracknumber = r.Next(0, 21);

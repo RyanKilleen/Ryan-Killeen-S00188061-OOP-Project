@@ -41,13 +41,13 @@ namespace Ryan_Killeen_S00188061_OOP_Project
             Driver d3 = new Driver { DriverName = "Max VerStappen", DriverNumber = "33", Points = 300, DriverImage = "DriverImages/Max.png" };
             Driver d4 = new Driver { DriverName = "Charles Leclerc", DriverNumber = "16", Points = 264, DriverImage = "DriverImages/Charles Leclerc.png" };
             Driver d5 = new Driver { DriverName = "Sebastian Vettel", DriverNumber = "5", Points = 240, DriverImage = "DriverImages/Sebastian Vettel.png" };
-
+            //Adding the Drivers to the List
             driversScores.Add(d1);
             driversScores.Add(d2);
             driversScores.Add(d3);
             driversScores.Add(d4);
             driversScores.Add(d5);
-
+            //Setting The Listbox with the source items
             lbxDrivers.ItemsSource = driversScores;
         }
 
@@ -55,29 +55,26 @@ namespace Ryan_Killeen_S00188061_OOP_Project
         private void Cbxnames_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             //This is to check what was selected
-            string selectedYear = cbxnames.SelectedItem as string; //2019
+            string selectedYear = cbxnames.SelectedItem as string; //2019 2018 2017
 
             //This is to make sure it's not null
             if (selectedYear != null)
             {
-                //This is to display the standings for a year
+                //These are to display the standings for a year that is Selected on the Combo Box
                 if (selectedYear == "2019")
                 {
                     lbxStandings.ItemsSource = standings_2019;
                     lbxDrivers.ItemsSource = driversScores;
                 }
-
                 else if (selectedYear == "2018")
                 {
                     lbxStandings.ItemsSource = standings_2018;
                     lbxDrivers.ItemsSource = driversScores;
-
                 }
                 else if (selectedYear == "2017")
                 {
                     lbxStandings.ItemsSource = standings_2017;
                     lbxDrivers.ItemsSource = driversScores;
-
                 }
             }
         }

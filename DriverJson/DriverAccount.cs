@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace DriverJson
 {
+    //Start Of Class
     class DriverAccount
     {
+        //Declaring Variables For the json file
         public string DriverName { get; set; }
         public int DriverNumber { get; set; }
 
+        //More Variables
         public DriverAccount(string driverName, int driverNumber)
         {
             DriverNumber = driverNumber;
@@ -27,4 +30,4 @@ namespace DriverJson
         }
 
     }
-}
+}//End of class

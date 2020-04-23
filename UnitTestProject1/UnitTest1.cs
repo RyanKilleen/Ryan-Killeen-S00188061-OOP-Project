@@ -21,7 +21,6 @@ namespace UnitTestProject1
 
             //Assert
             Assert.AreEqual(FinalPoints, add1.Points);
-
         }
     }
 }

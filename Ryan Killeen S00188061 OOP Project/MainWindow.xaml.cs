@@ -17,12 +17,13 @@ namespace Ryan_Killeen_S00188061_OOP_Project
 {
     public partial class MainWindow : Window
     {
+        //Start Of Class
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        //Open new window
+        //This Opens the window to drivers and teams
         private void BtnDriversAndTeam_Click(object sender, RoutedEventArgs e)
         {
             DriversAndTeams newWindow = new DriversAndTeams();
@@ -30,13 +31,15 @@ namespace Ryan_Killeen_S00188061_OOP_Project
             newWindow.ShowDialog();
         }
 
+        //This Opens the Window to the track window
         private void BtnTrackGuide_Click(object sender, RoutedEventArgs e)
         {
             Track newWindow = new Track();
 
             newWindow.ShowDialog();
         }
-
+        
+        //This Opens a Window to the Standings Winodow
         private void BtnStandings_Click(object sender, RoutedEventArgs e)
         {
             Standings newWindow = new Standings();
@@ -44,6 +47,7 @@ namespace Ryan_Killeen_S00188061_OOP_Project
             newWindow.ShowDialog();
         }
 
+        //This Opens a Window to the DataBase Window
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             DriverListSorting newWindow = new DriverListSorting();
@@ -51,4 +55,4 @@ namespace Ryan_Killeen_S00188061_OOP_Project
             newWindow.ShowDialog();
         }
     }
-}
+}//End of Class
